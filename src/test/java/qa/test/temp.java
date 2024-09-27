@@ -14,11 +14,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class temp {
 
 	public static void main(String[] args) throws InterruptedException {
-		System.out.println("change by first person");
-		System.out.println("2nd change by first person");
-		System.out.println("3rd change by first person");
-		System.out.println("4th change by first person");
-		System.out.println("5th change by first person");
+		
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		
