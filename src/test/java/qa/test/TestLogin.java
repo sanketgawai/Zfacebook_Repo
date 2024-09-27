@@ -32,6 +32,7 @@ public class TestLogin extends Basee {
 	public void openBrowser() throws IOException
 	{
 		System.out.println("1st change by 2nd person");
+		System.out.println("2nd change by 2nd person");
 		loadProperties();
 		
 		driver = initializeBrowserAndOpenApplication(prop.getProperty("browserName"));
